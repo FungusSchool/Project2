@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    font-size: xx-large;
+    justify-content:space-between;
+    align-content: center;
+    margin: 5px;
+}
+nav{
+}
+.title{
+    color:#F40009;
+}
