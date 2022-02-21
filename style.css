@@ -6,11 +6,25 @@ header{
     display: flex;
     font-size: xx-large;
     justify-content:space-between;
-    align-content: center;
-    margin: 5px;
+    align-items: center;
+    padding: 10px;
+    border-bottom: solid;
+    border-color: black;
 }
 nav{
+    display: flex;
+height: 100%;
+width: 20%;
+justify-content: end;
+}
+.navButton{
+padding: 1vh;
+
 }
 .title{
-    color:#F40009;
+    color:white;
+}
+body{
+    background-color: #F40009;
+    color: white;
 }
