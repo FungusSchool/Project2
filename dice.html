@@ -1,33 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script defer src="dice.js"></script>
-    <link rel="stylesheet" href="dice.css">
-    
-</head>
-<body>
-    <div class="moneyText">
-        
-    </div>
-    <div class="dice">
-        <img class="dice1" src="diceSides\perspective-dice-six-faces-random.png" alt="Dice with question marks on the sides">
-        <img class="dice2" src="diceSides\perspective-dice-six-faces-random.png" alt="Dice with question marks on the sides">
-    </div>
-    <div class="textBelow" >
-
-    </div>
-    <div class="buttonGrid">
-        <button class="diceRollH diceRoll">
-            Roll High
+    <link rel="stylesheet" href="dice.css" />
+  </head>
+  <body>
+    <header>
+      <div class="title">The Coca-Cola Gambling Site</div>
+      <nav>
+        <button onclick="document.location='dice.html'" class="navButton">
+          Dice
         </button>
-        <button class="diceRollL diceRoll">
-            Roll Low
-        </button>
+        <button class="navButton">Profile</button>
+      </nav>
+    </header>
+    <div class="main">
+      <div class="moneyText">Money: 100$ Energy: 100</div>
+      <div class="dice">
+        <img
+          class="dice1"
+          src="diceSides\perspective-dice-six-faces-random.png"
+          alt="Dice with question marks on the sides"
+        />
+        <img
+          class="dice2"
+          src="diceSides\perspective-dice-six-faces-random.png"
+          alt="Dice with question marks on the sides"
+        />
+      </div>
+      <div class="textBelow"></div>
+      <div class="buttonGrid">
+        <button class="diceRollH diceRoll">Roll High</button>
+        <button class="diceRollL diceRoll">Roll Low</button>
+        <button class="buyCoke diceRoll">Buy Coke</button>
+      </div>
     </div>
-
-</body>
+    <div class="lost hidden">
+      You lost all of your money and coca cola to bad guess you will have to
+      return som other time.
+    </div>
+  </body>
 </html>
