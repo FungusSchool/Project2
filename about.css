@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    background-color: #F40009;
+    display: flex;
+    font-size: xx-large;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: solid;
+    border-color: black;
+}
+
+nav {
+    display: flex;
+    height: 100%;
+    width: 20%;
+    justify-content: end;
+}
+
+.navButton {
+    padding: 1vh;
+
+}
+
+.title {
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.drinks {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: auto 1fr auto 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.drinksT {
+    display: flex;
+    align-items: center;
+    padding: 5%;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+.classicH {
+    grid-area: 1/ 1/ 2/ 3;
+    display: flex;
+    justify-content: center;
+}
+
+.classicT {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.classicI {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.lightH {
+    grid-area: 1/ 4/ 2/ 6;
+    display: flex;
+    justify-content: center;
+}
+
+.lightT {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.lightI {
+    grid-column: 5;
+    grid-row: 2;
+}
+
+.zeroH {
+    grid-area: 3/ 1/ 4/ 3;
+    display: flex;
+    justify-content: center;
+}
+
+.zeroT {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.zeroI {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.energyH {
+    grid-area: 3/ 4/ 4/ 6;
+    display: flex;
+    justify-content: center;
+}
+
+.energyT {
+    grid-column: 4;
+    grid-row: 4;
+}
+
+.energyI {
+    grid-column: 5;
+    grid-row: 4;
+}
+
+.diceInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.diceInfoT {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F40009;
+    color: white;
+}
+
+.linksL {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.offialWeb {
+    color: white;
+}
+
+.youtube1 {
+    color: white;
+}
+
+.youtube2 {
+    color: white;
+}
